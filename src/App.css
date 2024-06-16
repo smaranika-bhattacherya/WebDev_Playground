@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.editor-title{
+    font-size: 1rem;
+    background-color: rgb(20, 15, 32);
+    color: white;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px 10px 0 0;
+}
+.openc{
+    color: white;
+    border: none;
+    background:none;   
+    margin-left: .5rem ;    
+    cursor: pointer;
+}
+
+.editor-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis:0 ;
+   height: 50%;
+   width: 100vw;
+   padding: 10px 20px 10px 10px;
+   background-color: rgb(40, 34, 56);
+   
+}
+
+.frame{
+    width: 100vw;
+}
+
+
+
+.editor-container.collapsed{
+    /* position: absolute; */
+    flex-grow: 0;
+    /* overflow: hidden !important;  */
+}
+
+.top-panel{
+    display: flex;
+   
+}
+
+.pane{
+    width: 100vh;
+    height: 50vh;
+}
+
