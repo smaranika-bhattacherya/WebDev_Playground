@@ -1,7 +1,7 @@
 {
   "name": "codepen",
   "version": "0.1.0",
-"homepage": "https://smaranika-bhattacherya.github.io/codePen",
+
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
